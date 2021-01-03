@@ -1,9 +1,13 @@
 import React from 'react';
+import { ContextProvider } from './Context';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div>ToDo App</div>
-  );
+    <ContextProvider>
+      {/* Component */}
+    </ContextProvider>
+  )
 }
 
 export default App;
+

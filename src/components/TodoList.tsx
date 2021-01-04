@@ -16,4 +16,4 @@ export const TodoList: React.FC<TodoListProps> = ({ todos, toggleTodo }) => {
   )
 }
 
-export default TodoList
+export default TodoList;
